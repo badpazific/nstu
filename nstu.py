@@ -54,5 +54,5 @@ jsontext = json.dumps(dictionary)
 
 with open("List", "w") as f:
     f.write(jsontext)
-
+    
 time.sleep(5)
